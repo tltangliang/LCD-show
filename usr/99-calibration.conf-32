@@ -3,4 +3,6 @@ Section "InputClass"
         MatchProduct    "ADS7846 Touchscreen"
         Option  "Calibration"   "115 3700 3865 155"
         Option  "SwapAxes"      "1"
+        Option  "InvertX"       "1"
+        Option  "InvertY"       "0"
 EndSection
